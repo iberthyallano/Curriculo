@@ -380,10 +380,27 @@ main section .card.portifolio .portif a.card{
    background-color: firebrick;
    filter: grayscale(100%);
    box-shadow: none;
+   transition: 400ms;
 }
 
 main section .card.portifolio .portif a.card:hover{
    filter: grayscale(0%);
+}
+
+main section .card.portifolio .portif a.card#doe{
+    background: url("../image/doe.png") no-repeat center white;
+}
+
+main section .card.portifolio .portif a.card#casa{
+    background: url("../image/CasaCriativa.png") no-repeat center white;
+}
+
+main section .card.portifolio .portif a.card#coleta{
+    background: url("../image/ecoleta.svg") no-repeat center white;
+}
+
+main section .card.portifolio .portif a.card#hero{
+    background: url("../image/hero.svg") no-repeat center white;
 }
 
 main section .card.contato{
