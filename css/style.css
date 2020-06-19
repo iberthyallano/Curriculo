@@ -1,0 +1,474 @@
+:root{
+    --text-color: #7B7B7B;
+    --primary-color: #E0A80D;
+    --card-color: #2B2C2C;
+    --background-color: #262525;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Raeway', sans-serif;
+}
+
+body{
+    background-color: var(--background-color);
+    /* -webkit-font-smoothing: antialiased; */
+    color: var(--text-color);
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 27px;
+}
+
+h1.direita{
+    width: auto;
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+img#fundoimg{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.content{
+    width: 90%;
+    max-width: 1000px;
+    height: 100%;
+
+    margin: 0 auto;
+}
+
+.card{
+    height: 80px;
+    width: 80px;
+
+    border-radius: 8px;
+
+    background-color: var(--card-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.marcador{
+    /* width: 100% */
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+    border-left: 2px solid var(--primary-color);
+    margin-left: 38px;
+}
+
+.marcador.marc1{
+    height: 595px;
+}
+
+.marcador.marc2{
+    height: 300px;
+    top:1100px;
+    margin-left: 253px;
+}
+
+.marcador.marc3{
+    height: 520px;
+    top:1800px;
+    
+}
+
+.marcador.marc4{
+    height: 300px;
+    top:2300px;
+    margin-left: 238px;
+}
+
+.marcador.marc5{
+    height: 280px;
+    top:3100px;
+}
+
+.marcador.lat01{
+    border-left: none;
+    border-top: 2px solid var(--primary-color);
+    width: 100px;
+    top: 677px;
+}
+
+.marcador.lat02{
+    border-left: none;
+    border-top: 2px solid var(--primary-color);
+    width: 100px;
+    top: 877px;
+}
+
+.marcador.lat03{
+    border-left: none;
+    border-top: 2px solid var(--primary-color);
+    width: 100px;
+    top: 1077px;
+}
+
+.marcador.lat04{
+    border-left: none;
+    border-top: 2px solid var(--primary-color);
+    width: 100px;
+    top: 2120px;
+}
+
+.marcador.lat05{
+    border-left: none;
+    border-top: 2px solid var(--primary-color);
+    width: 100px;
+    top: 2320px;
+}
+
+.circle{
+    height: 35px;
+    width: 35px;
+    
+    position: absolute;
+
+    margin-left: 22px;
+    
+    border-radius: 100%;
+
+    background-color: var(--primary-color);
+}
+
+.circle h2{
+    margin-top: 3px;
+    margin-left: 7px;
+
+    color: var(--background-color);
+}
+
+.circle#circ01{
+    top: 660px;
+}
+
+.circle#circ02{
+    top: 860px;
+}
+
+.circle#circ03{
+    top: 1060px;
+}
+
+.circle#circ04{
+    top: 2103px;
+}
+
+.circle#circ05{
+    top: 2300px;
+}
+
+.text{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.text p{
+    margin-top:9px;
+}
+
+.text h4 {
+    margin-top: 13px;
+
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.text h2 {
+    margin-top: 30px;
+
+    font-size: 20px;
+    font-weight: normal;
+}
+
+header{
+    height: 360px;
+    background-color: white;
+    /* background-color: var(--card-color); */
+    margin-top: 61px;
+    margin-bottom: 61px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+header .text#responsive{
+    display: none;
+}
+
+header img{
+    max-width: 622px;
+    margin-left: 379.4px;
+}
+
+header .trapezio{
+    position: absolute;
+    border-bottom: 360px solid var(--card-color);
+    border-right: 150px solid transparent;
+    width: 650px;
+    z-index: +1;
+}
+
+header .trapezio .text{
+    position: absolute;
+    margin-left: 30px;
+}
+
+header .trapezio .text hr{
+    margin-top: 19px;
+    margin-bottom: 10px;
+    border: 1px solid var(--primary-color);
+}
+
+header .trapezio .text p:last-child{
+    margin-top: 60px;
+}
+
+header .card#card01, .card#card02{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 25px;
+    left: 400px;
+    background: rgba(113, 114, 115, 0.2);
+    box-shadow: none;
+    filter: grayscale(100%);
+}
+
+header .card#card01{
+    left: 350px;
+}
+
+header .card#card02:hover, .card#card01:hover{
+    filter: grayscale(0%)
+}
+
+header .card #imggit{
+    width: 25px;
+    height: 22px;
+    margin-left: 5px;
+    margin-top: 7px;
+    
+}
+
+header .card #imgig{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+main section{
+    margin-top: 61px;
+}
+
+main section .card.habilidades, 
+main section .card.portifolio,
+main section .card.contato{
+    width: 100%;
+    height: 530px;
+
+    border-radius: 0;
+    margin-top: 30.5px;
+}
+
+main section .card.habilidades .content.habi .bargrup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+main section .card.habilidades .content.habi .bargrup .grupTitle{
+    color: var(--primary-color);
+
+    justify-content: space-between;
+
+    margin-bottom: 2px;
+}
+
+
+main section .card.habilidades .content.habi .bargrup .progress2 {
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);  
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2 .progress-bar2 {
+    height: 10px;
+    border-radius: 30px 0 0 30px;
+    background-color:#E0A80D;   
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2 {
+    width:90%; 
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2.cesenta{
+    width:60%; 
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2.cesentaecinco{
+    width:65%; 
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2.cesenta{
+    width:60%; 
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2.setenta{
+    width:70%; 
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2.trinta{
+    width:30%; 
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2.cinquenta{
+    width:50%; 
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2.quarenta{
+    width:40%; 
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2.quarentaecinco{
+    width:45%; 
+}
+
+main section .card.habilidades .content.habi .bargrup .progress2.progress-moved .progress-bar2.vinte{
+    width:20%; 
+}
+
+main section .card.portifolio{
+    height: 605px;
+}
+
+main section .card.portifolio .portif{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 30px;
+    width: 92%;
+    margin: auto;
+}
+
+main section .card.portifolio .portif a.card{
+   width: 100%;
+   height: 250px;
+   background-color: firebrick;
+   filter: grayscale(100%);
+   box-shadow: none;
+}
+
+main section .card.portifolio .portif a.card:hover{
+   filter: grayscale(0%);
+}
+
+main section .card.contato{
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+main section .card.grupcard{
+    width: 90%;
+    height: 170px;
+
+    border-radius: 0;
+    border-left: 2px solid var(--primary-color);
+
+    margin-top: 30.5px;
+    margin-left: 10%;
+}
+
+main section .grupTitle{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+main section#habili  .grupTitle.direita{
+    padding-left: 70.5% ;
+}
+ 
+main section#port .grupTitle.direita{
+    padding-left: 72% ;
+}
+
+main section .grupTitle .card img{
+    width: 60px;
+    height: 42px;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+main section .grupTitle .card img#imghab{
+    height: 54px;
+    margin-top: 14px;
+}
+
+main section .grupTitle .card img#imgexp{
+    height: 51px;
+    margin-top: 15px;
+}
+
+main section .grupTitle .card img#imgport{
+    height: 52px;
+    margin-top: 14px;
+}
+
+main section .grupTitle .card img#imgcont{
+    height: 40px;
+    margin-top: 21px;
+}
+
+.col{
+    margin-top: 40px;
+    display: flex;
+    margin-right: 34px;
+}
+
+.col + .col{
+    margin-right: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    border-top: 2px solid var(--primary-color);
+
+    margin-top: 61px;
+}
+
+footer .col p a{
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+footer p a:hover{
+    color: var(--primary-color);
+}

@@ -1,0 +1,431 @@
+/* @media (max-width: 1100){
+    header .trapezio{
+        width: 550px;
+    }
+    
+    header img{
+        max-width: 622px;
+        margin-left: 188.5px;
+    }
+    
+    header .card#card01, header .card#card02{
+        top: 15px;
+        left:300px;
+    }
+
+    header .card#card01{
+        left: 250px;
+    }
+
+    main section#habili  .grupTitle.direita{
+        padding-left: 40% ;
+    }
+     
+    main section#port .grupTitle.direita{
+        padding-left: 60% ;
+    }
+} */
+
+@media (max-width: 900px){
+    .text h2 {
+        margin-top: 20px;
+    
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    header .trapezio{
+        width: 550px;
+    }
+    
+    header img{
+        max-width: 622px;
+        margin-left: 188.5px;
+    }
+    
+    header .card#card01, header .card#card02{
+        top: 15px;
+        left:300px;
+    }
+
+    header .card#card01{
+        left: 250px;
+    }
+}
+
+@media (max-width: 880px){
+    header img{
+        max-width: 622px;
+        margin-left: 166.7px;
+    }
+}
+
+@media (max-width: 840px){
+    header img{
+        max-width: 622px;
+        margin-left: 110.7px;
+    }
+}
+
+@media (max-width: 770px){
+    .marcador.marc5{
+        top:3400px;
+    }
+
+    .text h2 {
+        margin-top: 20px;
+    
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    
+    header .trapezio{
+        width: 520px;
+    }
+    
+    header img{
+        max-width: 622px;
+        margin-left: 80.5px;
+    }
+    
+    header .card#card01, header .card#card02{
+        top: 15px;
+        left:300px;
+    }
+
+    header .card#card01{
+        left: 250px;
+    }
+
+    main section .card.portifolio{
+        height:890px;
+    }
+
+    main section .card.portifolio .portif{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section#habili  .grupTitle.direita{
+        padding-left: 57% ;
+    }
+     
+    main section#port .grupTitle.direita{
+        padding-left: 60% ;
+    }
+}
+
+@media (max-width: 740px){
+    header img{
+        max-width: 622px;
+        margin-left: 50.7px;
+    }
+
+    header .trapezio{
+        width: 500px;
+    }
+
+    header .card#card01, header .card#card02{
+        top: 15px;
+        left:280px;
+    }
+
+    header .card#card01{
+        left: 230px;
+    }
+}
+
+@media (max-width: 680px){    
+    header img{
+        max-width: 622px;
+        margin-left: 0;
+    }
+    
+    header .trapezio{
+        width: 460px;
+    }
+
+    header .trapezio .text p:last-child{
+        margin-top: 30px;
+    }
+    
+    header .card#card01, header .card#card02{
+        top: 15px;
+        left:250px;
+    }
+
+    header .card#card01{
+        left: 200px;
+    }
+
+    main section .card.grupcard#card3{
+        height: 193px;
+    }
+
+    main section .card.grupcard#card4{
+        height: 190px;
+    }
+}
+
+@media (max-width: 550px){
+    .marcador.marc1{
+        top:500px;
+    }
+
+    .marcador.marc2{
+        top:1100px;
+    }
+
+    .marcador.marc3{
+        top:2257px;
+    }
+    
+    .marcador.marc4{
+        top:2800px;
+    }
+
+    .marcador.marc5{
+        top:4300px;
+    }
+
+    .circle#circ02{
+        top: 865px;
+    }
+    
+    .circle#circ03{
+        top: 1080px;
+    }
+
+    .marcador.lat03{
+        top: 1090px;
+    }
+    .circle#circ04{
+        top: 2525px;
+    }
+    
+    .circle#circ05{
+        top: 2755px;
+    }
+
+    .marcador.lat04{
+        top: 2545px;
+    }
+    
+    .marcador.lat05{
+        top: 2780px;
+    }
+
+    header {
+        height: 360px;
+        background-color: var(--card-color);
+    }
+
+    header .trapezio{
+        display: none;
+        position: absolute;
+        border-bottom: 360px solid var(--card-color);
+        border-right: 150px solid var(--card-color);
+        width: 90%;
+        z-index: +1;
+    }
+
+    header .text#responsive{
+        display: inline;
+    }
+
+    header .text{
+        width: 80%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 20px;
+
+        position: absolute;
+        z-index: +2;
+    }
+    
+    header .text hr{
+        margin-top: 19px;
+        margin-bottom: 10px;
+        border: 1px solid var(--primary-color);
+    
+    }
+    
+    header .text p:last-child{
+        margin-top: 20px;
+    }
+
+    header img#perfil{
+        display: none;
+    }
+
+    main section .card.portifolio{
+        height:1305px;
+    }
+
+    main section .card.portifolio .portif{
+        grid-template-columns: 1fr;
+    }
+
+    main section .card.portifolio .portif a.card{
+        height: 180px;
+    }
+
+
+    main section .card.habilidades{
+        height: 885px;
+    }
+
+    main section .card.habilidades .content.habi .bargrup{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    main section .card.grupcard#card1{
+        height: 170px;
+    }
+    main section .card.grupcard#card2, main section .card.grupcard#card3{
+        height: 190px;
+    }
+
+    main section .card.grupcard#card4{
+        height: 230px;
+    }
+}
+
+@media (max-width: 450px){
+    .marcador, .circle{
+        display: none;
+    }
+
+    h1{
+        font-size: large;
+    }
+
+    main section .card.grupcard{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    main section .card.grupcard#card1{
+        height: 230px;
+    }
+    main section .card.grupcard#card2, main section .card.grupcard#card3{
+        height: 210px;
+    }
+
+    main section .card.grupcard#card4{
+        height: 245px;
+    }
+
+    main section .card.grupcard#card5{
+        height: 210px;
+    }
+
+    main section#habili  .grupTitle.direita{
+        padding-left: 31% ;
+    }
+     
+    main section#port .grupTitle.direita{
+        padding-left: 34% ;
+    }
+
+    main section .card.contato{
+        display: grid;
+        /* text-align: center; */
+
+        height: 200px;
+    }
+
+    main section .card.contato  .col + .col{
+        margin-top: 20px;
+    }
+
+    footer, .contato  .col{
+        text-align: center;
+        margin-right: auto;
+    }    
+}
+
+@media (max-width: 400px){
+    header .card#card01, header .card#card02{
+        top: 15px;
+        left:280px;
+    }
+
+    header .card#card01{
+        left: 225px;
+    }
+}
+
+@media (max-width: 380px){
+
+    h1{
+        margin-left: 10px;
+    }
+
+    h1.direita{
+        margin-right: 10px;
+    }
+    
+    header .text{
+        margin-top: 5px;
+    }
+
+    header .card#card01, header .card#card02{
+        top: 15px;
+        left:250px;
+    }
+
+    header .card#card01{
+        left: 200px;
+    }
+    
+    main section .card.grupcard#card1{
+        height: 250px;
+    }
+    main section .card.grupcard#card2{
+        height: 225px;
+    }
+
+    main section .card.grupcard#card3{
+        height: 250px;
+    }
+
+    main section .card.grupcard#card4{
+        height: 265px;
+    }
+
+    main section .card.grupcard#card5{
+        height: 225px;
+    }
+
+    main section#habili  .grupTitle.direita{
+        padding-left: 33.5% ;
+    }
+     
+    main section#port .grupTitle.direita{
+        padding-left: 38% ;
+    }
+}
+
+
+/* 
+.marcador.marc2{
+    margin-left: 253px;
+}
+
+.marcador.marc4{
+    margin-left: 238px;
+}
+
+main section#habili  .grupTitle.direita{
+    padding-left: 70.5% ;
+}
+ 
+main section#port .grupTitle.direita{
+    padding-left: 72% ;
+} */
